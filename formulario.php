@@ -105,7 +105,7 @@
 				<tr><td>
 					<label for="Observações">Observações:</label></td>
 					<td><textarea name="observações" rows="8" cols="80"></textarea></td></tr>
-				</div>
+				</div> 
 			<div>
 				<tr><td>
 				<input type="submit" name="cadastrar" id="cadastrar" value="Concluir cadastro" /></td>
