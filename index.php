@@ -11,28 +11,29 @@
 			<dir>
 			<tr><td>
 				<label for="Name">Name:</label></td>
-				<td><input type="text" id="Name" name="Name" required /> </td></tr>
+				<td><input type="text" id="Name" name="Name" required />*</td></tr>
 			</dir>
 			<dir>
 			<tr><td>
 				<label for="Age">Age:</label></td>
-				<td><input type="text" id="Age" name="Age" required /> </td></tr>
+				<td><input type="text" id="Age" name="Age" required  />*</td></tr>
 			</dir>
 			<dir>
 				<tr><td>
 				<label for="Gender">Gender:</label></td>
 				<td><input type="radio" name="Gender" value="Male" required > Male
-					<input type="radio" name="Gender" value="Female" required > Female  </td></tr>
+					<input type="radio" name="Gender" value="Female" required > Female
+					*</td> </tr>
 				</dir>
 			<dir>
 			<tr><td>
 				<label for="Address">Address:</label></td>
-				<td><input type="text" id="Address" name="Address" required /></td></tr>
+				<td><input type="text" id="Address" name="Address" required />*</td>  </tr>
 			</dir>
 			<dir>
 				<tr><td>
 					<label for="City">City:</label></td>
-					<td><input type="text" id="City" name="City" required /></td></tr>
+					<td><input type="text" id="City" name="City" required />*</td></tr>
 				</dir>
 				<dir>
 					<tr><td>
@@ -65,17 +66,17 @@
 			        <option value="sp">SP</option>
 			        <option value="se">SE</option>
 			        <option value="to">TO</option>
-						</select></td></tr>
+						</select>*</td></tr>
 					</dir>
 			<dir>
 				<tr><td>
 					<label for="District">District:</label></td>
-					<td><input type="text" name="District" id="District" required /></td></tr>
+					<td><input type="text" name="District" id="District" required />*</td></tr>
 				</dir>
 				<dir>
 					<tr><td>
 						<label for="Country">Country:</label></td>
-						<td><input type="text" name="Country" id="Country" required /></td></tr>
+						<td><input type="text" name="Country" id="Country" required />*</td></tr>
 					</dir>
 			<dir>
 				<tr><td>
@@ -85,12 +86,12 @@
 				<dir>
 					<tr><td>
 						<label for="Login">Login:</label></td>
-						<td><input type="text" name="Login" maxlength="10" required /> </td></tr>
+						<td><input type="text" name="Login" maxlength="10" required />*</td></tr>
 					</dir>
 					<dir>
 						<tr><td>
 							<label for="Password">Senha:</label></td>
-							<td><input type="password" name="Password" maxlength="10" required /> </td></tr>
+							<td><input type="password" name="Password" maxlength="10" required />*</td></tr>
 						</dir>
 			<dir>
 				<tr><td>
