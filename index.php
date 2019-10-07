@@ -21,8 +21,8 @@
 			<dir>
 				<tr><td>
 				<label for="Gender">Gender:</label></td>
-				<td><input type="radio" name="Gender" value="Male" required > Male
-					<input type="radio" name="Gender" value="Female" required > Female
+				<td><input type="radio" id="Gender" name="Gender" value="Male" required > Male
+					<input type="radio" id="Gender" name="Gender" value="Female" required > Female
 					*</td> </tr>
 				</dir>
 			<dir>
@@ -86,12 +86,12 @@
 				<dir>
 					<tr><td>
 						<label for="Login">Login:</label></td>
-						<td><input type="text" name="Login" maxlength="10" required />*</td></tr>
+						<td><input type="text" name="Login" id="Login" maxlength="10" required />*</td></tr>
 					</dir>
 					<dir>
 						<tr><td>
 							<label for="Password">Senha:</label></td>
-							<td><input type="password" name="Password" maxlength="10" required />*</td></tr>
+							<td><input type="password" name="Password" id="Password" maxlength="10" required />*</td></tr>
 						</dir>
 			<dir>
 				<tr><td>
@@ -105,7 +105,7 @@
 			<div>
 				<tr><td>
 					<label for="Comments">Comments:</label></td>
-					<td><textarea name="Comments" rows="8" cols="80"></textarea></td></tr>
+					<td><textarea name="Comments" id="Comments" rows="8" cols="80"></textarea></td></tr>
 				</div>
 			<div>
 				<tr><td>
