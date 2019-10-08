@@ -6,7 +6,7 @@ describe('My first test', function() {
   it('Submit values', function() {
     cy.get('#Name').type('Teste')
     cy.get('#Age').type('77')
-    cy.get('[type="radio"]').check('Female')
+    cy.get('[type="radio"]').check('Male')
     cy.get('#Address').type('Rua Poinciana, 691')
     cy.get('#City').type('Belo Horizonte')
     cy.get('#State').select('MG').should('have.value', 'mg')
@@ -18,6 +18,7 @@ describe('My first test', function() {
     cy.get('[type="radio"]').check('Single')
     cy.get('#Comments').type('teste')
     cy.get('form').submit()
-    // change URL to match your dev URL
   })
+
+
 })

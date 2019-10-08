@@ -90,7 +90,7 @@
 					</dir>
 					<dir>
 						<tr><td>
-							<label for="Password">Senha:</label></td>
+							<label for="Password">Password:</label></td>
 							<td><input type="password" name="Password" id="Password" maxlength="10" required />*</td></tr>
 						</dir>
 			<dir>
