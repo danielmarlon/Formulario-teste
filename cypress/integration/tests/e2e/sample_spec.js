@@ -20,5 +20,21 @@ describe('My first test', function() {
     cy.get('form').submit()
   })
 
+  it('Checking the information', function() {
+    cy.contains('Teste')
+    cy.contains('77')
+    cy.contains('Male')
+    cy.contains('Rua Poinciana, 691')
+    cy.contains('Belo Horizonte')
+    cy.contains('mg')
+    cy.contains('Lindeia')
+    cy.contains('Brasil')
+    cy.contains('danielmarlon181@gmail.com')
+    cy.contains('Dragon')
+    cy.contains('Santinho')
+    cy.contains('Single')
+    cy.contains('teste')
+  })
+
 
 })

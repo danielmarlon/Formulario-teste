@@ -4,7 +4,7 @@
 		<title>Test Form</title>
 		<meta name="description" content="Test site creation with a form" />
 	</head>
-	<body bgcolor="Red" text="Blue">
+	<body bgcolor="Green" text="Blue">
 	<form name="Form" action="/script.php" method="post">
 		<table>
 			<caption>REGISTER</caption>
@@ -71,7 +71,7 @@
 			<dir>
 				<tr><td>
 					<label for="District">District:</label></td>
-					<td><input type="text" name="District" id="District" required />*</td></tr>
+					<td><input type="text" name="District" id="District" required/>*</td></tr>
 				</dir>
 				<dir>
 					<tr><td>
