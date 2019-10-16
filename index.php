@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html style="text-align: center;"
+<html
 	<head>
 		<title>Test Form</title>
 		<meta name="description" content="Test site creation with a form" />
 	</head>
 	<body bgcolor="Green" text="Blue" >
-		<h1 style="font-size: 3rem;color: #Blue;text-align: center;">Register</h1>
-	<form name="Form" action="/script.php" method="post" >
+		<h1 style="font-size: 3rem;color: #Blue;text-align: center;font-family: URW Chancery L, cursive;">Register</h1>
+	<form name="Form" action="/script.php" method="post"  style="font-size: 1rem;font-family: URW Chancery L, cursive;">
 		<table>
 			<dir>
 			 <tr><td>
