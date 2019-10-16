@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html
+<html style="text-align: center;"
 	<head>
 		<title>Test Form</title>
 		<meta name="description" content="Test site creation with a form" />
 	</head>
-	<body bgcolor="Green" text="Blue">
-	<form name="Form" action="/script.php" method="post">
+	<body bgcolor="Green" text="Blue" >
+		<h1 style="font-size: 3rem;color: #Blue;text-align: center;">Register</h1>
+	<form name="Form" action="/script.php" method="post" >
 		<table>
-			<caption>REGISTER</caption>
 			<dir>
 			 <tr><td>
-				<label for="Name">Name:</label></td>
+				<label for="Name">Name:</label><br></td>
 				<td><input type="text" id="Name" name="Name" required />*
 			 </td></tr>
 			</dir>
