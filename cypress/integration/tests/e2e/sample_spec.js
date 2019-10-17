@@ -17,7 +17,8 @@ describe('My first test', function() {
     cy.get('#Password').type('Santinho')
     cy.get('[type="radio"]').check('Single')
     cy.get('#Comments').type('teste')
-    cy.get('form').submit()
+    cy.get('input[name="Register"]').click()
+      
   })
 
   it('Checking the information', function() {

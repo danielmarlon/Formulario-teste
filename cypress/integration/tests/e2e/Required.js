@@ -17,7 +17,7 @@ describe('My first test', function() {
     cy.get('#Password')
     cy.get('[type="radio"]').check('Single')
     cy.get('#Comments').type('teste')
-    cy.get('form').submit()
+    cy.get('input[name="Register"]').click()
   })
   it('checking if the fields have not been filled', function(){
     cy.contains('Name field needs to be filled in!')
