@@ -70,7 +70,7 @@
 			        <option value="sp">SP</option>
 			        <option value="se">SE</option>
 			        <option value="to">TO</option>
-		</select>*
+		    </select>*
 	 </td></tr>
 	</dir>
 	<dir>
