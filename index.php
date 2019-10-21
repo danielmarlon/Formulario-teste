@@ -6,12 +6,12 @@
 </head>
 <body bgcolor="Green" text="Blue" />
  <h1 style="font-size: 3rem;color: #Blue;text-align: center;font-family: URW Chancery L, cursive;">Register</h1>
-<form name="Form" action="/script.php" method="post"  style="font-size: 1rem;font-family: URW Chancery L, cursive;" />
+<form name="Form" action="/script.php" method="post"  style="font-size: 1rem;font-family: URW Chancery L, cursive;" >
 <table>
  <dir>
   <tr>
   <td>
-	 <label for="Name">Name:</label><br>
+	 <label for="Name">Name:</label>
   </td>
 	<td>
    <input type="text" id="Name" name="Name" required />*
@@ -159,7 +159,7 @@
 	 <input type="radio" name="op" value="Divorced" /> Divorced
   </td>
   </tr>
- </div>
+ </dir>
  <div>
   <tr>
   <td>
